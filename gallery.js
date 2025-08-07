@@ -13,3 +13,11 @@ if (!imageDiv) return;
 imageDiv.style.backgroundImage = ""; // Or the original CSS background
   imageDiv.textContent = "Hover over an image below to display here.";
 	}
+
+function blur(){
+	console.log("Working;");
+}
+
+function focus (){
+	console.log("focus working:");
+}
